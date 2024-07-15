@@ -1,0 +1,23 @@
+
+$color-bg-general: #4444;
+body {
+    background-color: $color-bg-general;
+    // h1{
+    //     color: brown;
+    //     transform: scale(1.5);
+    // }
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+@import 'header';
+
+.card{
+    background-color: #24212144;
+    color: #ffff;
+    padding: 2rem;
+}
+
+main{
+    padding: 2rem 0;
+}

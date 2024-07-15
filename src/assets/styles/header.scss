@@ -1,0 +1,16 @@
+header{
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    color: #ffff;
+    background: #101010;
+
+    nav{
+        display: inline-flex;
+        gap: 1rem;
+    }
+
+    @media (max-width: 991.1px) {
+        position: fixed;
+    }
+}
