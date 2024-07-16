@@ -1,0 +1,66 @@
+@media (width <= 768px) {
+  .container {
+    width: 100%;
+    max-width: 730px;
+    height: 378px;
+    margin: 0 auto;
+  }
+
+  .header {
+    padding-top: 7px;
+    padding-bottom: 0px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    background: url(/src/assets/images/header__background-mabile.png);
+  }
+
+  .header__button-mobile {
+    display: inline;
+    border: none;
+    background: none;
+  }
+
+  .header__button {
+    display: none;
+  }
+
+  .header__picture > img {
+    height: 203px;
+    width: 205.34px;
+    padding-top: 19.93px;
+  }
+
+  .header__main {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 0px;
+  }
+
+  .header__content {
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    position: relative;
+    bottom: 15px;
+  }
+
+  .header__content-title {
+    width: 237px;
+    height: 126px;
+    font-size: 42px;
+    line-height: 42px;
+  }
+
+  .header__content-text {
+    padding-top: 7px;
+    padding-bottom: 32px;
+  }
+
+  .header__font-style {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}

@@ -1,22 +1,21 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import DashView from '../views/DashView.vue'
-import PathNotFound from '../views/NotFound.vue'
+import { createRouter, createWebHistory } from 'vue-router';
+import HomeView from '../views/HomeView.vue';
+import DashView from '../views/DashView.vue';
+import PathNotFound from '../views/NotFound.vue';
 
 const router = createRouter({
-
-  mode: "history",
+  mode: 'history',
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
       name: 'home',
-      component: HomeView
+      component: HomeView,
     },
     {
       path: '/dash',
       name: 'dash',
-      component: DashView
+      component: DashView,
     },
 
     // {
@@ -27,9 +26,9 @@ const router = createRouter({
 
     {
       path: '/:pathMatch(.*)*',
-      component: PathNotFound
+      component: PathNotFound,
     },
-  ]
-})
+  ],
+});
 
-export default router
+export default router;
