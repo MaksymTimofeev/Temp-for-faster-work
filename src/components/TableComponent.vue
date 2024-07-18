@@ -1,6 +1,5 @@
 <template>
 
-  <div>
     <main>
       <div class="table">
         <div class="table__main">
@@ -103,7 +102,6 @@
         </div>
       </div>
     </main>
-  </div>
 
 </template>
 

@@ -18,8 +18,8 @@ a {
   padding-bottom: 52.39px;
   max-height: 576px;
   font-family: 'Inter', sans-serif;
-  font-size: 24px;
-  line-height: 16px;
+  font-size: 1.5rem;
+  line-height: 1rem;
   background: url(/src/assets/images/header__background.png);
 }
 
@@ -38,19 +38,19 @@ a {
   border: 1px solid #e6e6e6;
   display: block;
   background: #fafafa;
-  height: 48px;
+  height: 3rem;
   padding: 0px 24px;
   font-family: 'Manrope', sans-serif;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 300;
-  line-height: 21px;
+  line-height: 1.3125rem;
   border-radius: 200px;
 }
 
 .header__button_color {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
-  line-height: 19.12px;
+  line-height: 1.195rem;
   text-align: left;
   color: #c5fff0;
   padding-bottom: 3px;
@@ -77,11 +77,11 @@ a {
 }
 
 .header__content-title {
-  width: 534px;
-  height: 144px;
+  width: 33.375rem;
+  height: 9rem;
   font-weight: 700;
-  font-size: 72px;
-  line-height: 72px;
+  font-size: 4.5rem;
+  line-height: 4.5rem;
   color: #333333;
 }
 
@@ -98,8 +98,8 @@ a {
 .header__font-style {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 16px;
+  font-size: 1.5rem;
+  line-height: 1rem;
   text-align: center;
 }
 

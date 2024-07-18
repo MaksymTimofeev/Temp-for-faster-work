@@ -4,9 +4,9 @@ main {
   padding-top: 39px;
   padding-bottom: 153px;
   font-family: 'Manrope', sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 21.86px;
+  line-height: 1.3662rem;
 }
 
 .table {
@@ -31,9 +31,9 @@ main {
 }
 
 .table__item {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 1.25rem;
   opacity: 50%;
   padding-bottom: 13px;
 }
@@ -41,9 +41,9 @@ main {
 .table__coin-bin {
   display: flex;
   gap: 8px;
-  font-size: 52px;
+  font-size: 3.25rem;
   font-weight: 700;
-  line-height: 62px;
+  line-height: 3.875rem;
   padding-bottom: 14px;
 }
 
@@ -55,8 +55,8 @@ main {
   display: flex;
   align-items: center;
   gap: 12px;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
   opacity: 50%;
 }
 
@@ -64,8 +64,8 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 423px;
-  height: 48px;
+  width: 26.4375rem;
+  height: 3rem;
   padding: 0px 16px;
   border-bottom: 1px solid #e6e6e6;
 }
@@ -84,8 +84,8 @@ main {
 
 div.table__indexes-menu {
   padding: 24px 16px;
-  font-size: 14px;
-  line-height: 19.12px;
+  font-size: 0.875rem;
+  line-height: 1.195rem;
   color: #00000080;
   border-bottom: 1px solid #e6e6e6;
 }

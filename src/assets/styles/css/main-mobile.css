@@ -29,9 +29,9 @@
   .table__coin-bnb {
     display: flex;
     gap: 8px;
-    font-size: 52px;
+    font-size: 3.25rem;
     font-weight: 700;
-    line-height: 62px;
+    line-height: 3.875rem;
     padding-bottom: 17px;
   }
 
@@ -40,8 +40,8 @@
   }
 
   .table__main-market > div {
-    width: 295px;
-    height: 48px;
+    width: 18.4375rem;
+    height: 3rem;
     padding: 0;
   }
 
@@ -63,7 +63,7 @@
   }
 
   .table__indexes-mobile {
-    font-size: 14px;
-    line-height: 19.12px;
+    font-size: 0.875rem;
+    line-height: 1.195rem;
   }
 }
