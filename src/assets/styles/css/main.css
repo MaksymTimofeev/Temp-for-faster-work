@@ -11,7 +11,7 @@ main {
 
 .table {
   width: 747px;
-  height: 424px;
+  height: 504px;
   padding: 40px 32px 40px 32px;
   border-radius: 16px;
   border: 1px solid rgba(230, 230, 230, 1);
@@ -115,4 +115,54 @@ div.table__indexes-menu {
 
 .table__indexes-mobile {
   display: none;
+}
+
+@media (min-width: 1200.1px) {
+  html {
+    font-size: 1.0582vw;
+  }
+
+  .container {
+    max-width: calc(68vw + 0.916rem * 2);
+  }
+}
+
+@media (max-width: 1200.1px) {
+  html {
+    font-size: 1.2vw;
+  }
+
+  .container {
+    max-width: 90vw;
+  }
+}
+
+@media (max-width: 768.1px) {
+  html {
+    font-size: 1.5vw;
+  }
+
+  .container {
+    max-width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width: 640.1px) {
+  html {
+    font-size: 3vw;
+  }
+
+  .container {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}
+
+@media (max-width: 380.1px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
