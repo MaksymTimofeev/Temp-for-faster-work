@@ -1,7 +1,10 @@
 <template>
 
     <main>
-      <button v-on:click="userIsActive = !userIsActive" class="buttonTable">Приховати/показати</button>
+      <button v-on:click="userIsActive = !userIsActive" class="buttonTable">
+        <div v-if="userIsActive">Приховати</div>
+        <div v-else>Показати</div>
+      </button>
       <div v-if="userIsActive" class="table">
         <div class="table__main">
           <div class="table__main-bin">
