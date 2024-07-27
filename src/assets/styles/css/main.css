@@ -1,6 +1,8 @@
 main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding-top: 39px;
   padding-bottom: 153px;
   font-family: 'Manrope', sans-serif;
@@ -115,6 +117,14 @@ div.table__indexes-menu {
 
 .table__indexes-mobile {
   display: none;
+}
+
+.buttonTable {
+  max-height: 30px;
+  padding: 8px 12px;
+  background-color: #24a483;
+  border-radius: 30px;
+  margin-bottom: 30px;
 }
 
 @media (min-width: 1200.1px) {

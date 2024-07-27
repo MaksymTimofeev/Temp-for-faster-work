@@ -1,7 +1,8 @@
 <template>
 
     <main>
-      <div class="table">
+      <button v-on:click="userIsActive = !userIsActive" class="buttonTable">Приховати/показати</button>
+      <div v-if="userIsActive" class="table">
         <div class="table__main">
           <div class="table__main-bin">
             <span class="table__item">Всього застекано</span>
@@ -24,6 +25,7 @@
             </div>
           </div>
         </div>
+
         <div class="table__indexes">
           <div class="table__indexes-menu">
             <div>Дні стекінгу</div>
@@ -31,15 +33,18 @@
             <div>Дохід за період</div>
             <div>Очікується</div>
             <div>Статус</div>
+        </div>
+          <div v-for="i in userData" >
+            <div> {{ i.stakingDays }} днів</div>
+            <div> {{ i.profitPerDay }} %</div>
+            <div> {{ i.profitWhole }} %</div>
+            <div> {{ i.waiting }} BIN</div>
+            <div>
+             <span v-if="i.isActive" class="table__activeStatus">Активний</span>
+              <span v-else class="table__inactiveStatus">Неактивний</span>
+            </div>
           </div>
-          <div>
-            <div>17 днів</div>
-            <div>0.5%</div>
-            <div>31.7%</div>
-            <div>10 BIN</div>
-            <div><span class="table__activeStatus">Активний</span></div>
-          </div>
-          <div>
+          <!-- <div>
             <div>17 днів</div>
             <div>0.5%</div>
             <div>31.7%</div>
@@ -52,7 +57,7 @@
             <div>31.7%</div>
             <div>10 BIN</div>
             <div><span class="table__activeStatus">Активний</span></div>
-          </div>
+          </div> -->
         </div>
         <div class="table__indexes-mobile">
           <div>
@@ -104,6 +109,42 @@
     </main>
 
 </template>
+
+<script>
+
+export default {
+  data() {
+    return {
+      userIsActive: false,
+      userData: [
+        {
+          stakingDays: 17,
+          profitPerDay: ".5",
+          profitWhole: "21.43",
+          waiting: 10,
+          isActive: false,
+        },
+        {
+          stakingDays: 45,
+          profitPerDay: "1",
+          profitWhole: "9.43",
+          waiting: 43,
+          isActive: false,
+        },
+        {
+          stakingDays: 23,
+          profitPerDay: "12.34",
+          profitWhole: "358.13",
+          waiting: 638,
+          isActive: true,
+        },
+      ]
+    }
+  },
+}
+</script>
+
+
 
 <!-- <div>
   <div class="card">
